@@ -1,3 +1,20 @@
+html {
+  background-image: url("./ttt.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.title{
+  text-align: center;
+  color: white;
+}
+.player {
+color: white
+}
+
+.square--winning {
+  background-color: yellow;
+}
+
 .App {
   text-align: center;
 }

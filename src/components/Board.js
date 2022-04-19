@@ -2,7 +2,7 @@ import React from "react";
 import Square from "./Square";
 
 const style = {
-  border: "4px solid darkblue",
+  border: "4px solid #67d0fc",
   borderRadius: "10px",
   width: "250px",
   height: "250px",
@@ -12,7 +12,7 @@ const style = {
 };
 
 const Board = ({ squares, onClick }) => (
-  <div style={style}>
+    <div style={style}>
       {squares.map((square, i) => (
       <Square key={i} value={square} onClick={() => onClick(i)} />
     ))}

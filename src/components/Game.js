@@ -26,9 +26,9 @@ const Game = () => {
         const current = timeHist[stepNumber]
         const squares = [...current]
         
-        if (winner || squares[i]) return;
-        squares[i] = xIsNext ? 'X' : 'O'
-    ;
+        if (winner || squares[i]) return;        
+        squares[i] = xIsNext ? 'X' : 'O';
+
         setHistory([...timeHist, squares]);
         setStepNumber(timeHist.length)
         setXIsNext(!xIsNext);
